@@ -1,0 +1,36 @@
+{
+  "node_modules/react-multi-carousel/lib/revicons.eot": {
+    "file": "assets/revicons-9e4d4c68.eot",
+    "src": "node_modules/react-multi-carousel/lib/revicons.eot"
+  },
+  "node_modules/react-multi-carousel/lib/revicons.ttf": {
+    "file": "assets/revicons-4ca02b8a.ttf",
+    "src": "node_modules/react-multi-carousel/lib/revicons.ttf"
+  },
+  "node_modules/react-multi-carousel/lib/revicons.woff": {
+    "file": "assets/revicons-f7b9c306.woff",
+    "src": "node_modules/react-multi-carousel/lib/revicons.woff"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-a5fa336a.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-69c3871b.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "assets": [
+      "assets/revicons-f7b9c306.woff",
+      "assets/revicons-4ca02b8a.ttf",
+      "assets/revicons-9e4d4c68.eot"
+    ],
+    "css": [
+      "assets/app-69c3871b.css"
+    ],
+    "file": "assets/app-af46a349.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}

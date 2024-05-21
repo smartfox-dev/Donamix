@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --primary: 0 0% 0%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 9px;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+
+    --ring: 217.2 32.6% 17.5%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    word-break: keep-all;
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .profile-edit-panel-lg {
+    width: calc(100vw - 560px) !important;
+  }
+  .profile-edit-panel {
+    width: calc(100vw - 66px) !important;
+  }
+  .recent-blog-2xl {
+    width: calc(100vw - 750px) !important;
+  }
+  .recent-blog-xl {
+    width: calc(100vw - 450px) !important;
+  }
+  .recent-blog-lg {
+    width: calc(100vw - 450px) !important;
+  }
+
+  .drapdrop{
+    width: 100%;
+    border: solid 1px rgb(224, 224, 224) !important;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100px!important;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .drapdrop p{
+    font-size: 15px!important;
+  }
+}

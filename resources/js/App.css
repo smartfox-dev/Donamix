@@ -1,0 +1,32 @@
+.mainBody {
+  width: calc(100% - 630px);
+}
+
+@media (max-width: 960px)
+{
+  .mainBody {
+    width: 100%;
+  }
+}
+
+.map-container {
+  height: 356px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item{
+  padding-right: 10px!important;
+
+}
+.MuiDropzonePreviewList-removeButton{
+  right: 40px!important;
+}
+/* .grid{
+  overflow: scroll;
+} */
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+}
